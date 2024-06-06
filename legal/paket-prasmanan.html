@@ -24,6 +24,7 @@
     <link href="assets/css/external.css" rel="stylesheet">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/home-prasmanan.css">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 9]>
@@ -35,50 +36,6 @@
     ============================================= -->
     <title>Leagl | Legal Firm Html5 onepage</title>
 </head>
-<style>
-    .paket {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        -webkit-transform: scale(0);
-        -moz-transform: scale(0);
-        transform: scale(0);
-        background-color: rgba(51, 51, 51, 0.4);
-        -moz-transition: all .35s linear;
-        -webkit-transition: all .35s linear;
-        -ms-transition: all .35s linear;
-        -o-transition: all .35s linear;
-        transition: all .35s linear;
-        -webkit-transform: scale(1);
-        -moz-transform: scale(1);
-        transform: scale(1);
-    }
-
-    .paket a {
-        position: absolute;
-        top: 53%;
-        left: 25%;
-        display: block;
-        width: 250px;
-        height: 60px;
-        line-height: 60px;
-        text-align: center;
-        color: #ffffff;
-        font-size: 18px;
-        font-weight: 200;
-        border: 3px solid rgba(255, 255, 255, 0.4);
-        /* border-radius: 10%; */
-        margin-top: -30px;
-        margin-left: -30px;
-    }
-
-    .paket a:hover {
-        background-color: #d8ae76;
-        border-color: #d8ae76;
-    }
-</style>
 
 <body class="body-scroll">
     <!-- Document Wrapper
@@ -97,19 +54,21 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-
-                        <a class="logo" href="index-2.html">
-                            <img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="appy Logo">
-                            <img class="logo-light" src="assets/images/logo/logo-light.png" alt="appy Logo">
+                        <a class="logo text-center " href="index-2.html">
+                            St<span class="icon-st">.</span>
                         </a>
                     </div>
                     <div class="collapse navbar-collapse pull-right" id="navbar-collapse-1">
                         <ul class="nav navbar-nav nav-pos-right navbar-left nav-split">
-                            <li class="active"><a data-scroll="scrollTo" href="home.html">home</a>
+                            <li><a href="index-boxed.html">Beranda</a>
                             </li>
-                            <li><a href="blog-standard.html">blog</a>
+                            <li><a data-scroll="scrollTo" href="about.html">Tentang Kami</a>
                             </li>
-                            <li><a href="#">contact</a>
+                            <li><a data-scroll="scrollTo" href="#feature2">Paket cathering</a>
+                            </li>
+                            <li class="active"><a data-scroll="scrollTo" href="paket-prasmanan.html">Paket Prasmanan</a>
+                            </li>
+                            <li><a data-scroll="scrollTo" href="contact.html">Kontak</a>
                             </li>
                         </ul>
                     </div>
@@ -117,7 +76,7 @@
                 </div>
             </nav>
 
-        </header>
+        </header><!-- Slider #1
         <!-- Page Title #7
 ============================================= -->
         <section id="page-title" class="page-title bg-overlay bg-overlay-dark">
@@ -145,22 +104,19 @@
 
         <!-- Blog Grid
 ============================================= -->
-        <section id="blog" class="blog blog-grid ">
+        <section id="blog" class="blog blog-grid">
             <div class="container">
                 <div class="row">
                     <!-- Blog Entry #1 -->
                     <div class="col-xs-12 col-sm-12 col-md-4">
                         <div class="blog-entry">
                             <div class="entry--img">
-                                <a href="#">
+                                <a href="">
                                     <img src="assets/images/prasmanan-pict/paket-3.jpg" alt="entry image" />
                                 </a>
                                 <div class="paket">
-                                    <a href=" #">Paket prasmanan</a>
+                                    <a href="#">Paket Prasmanan 1</a>
                                 </div>
-                            </div>
-                            <div class="entry--title">
-                                <h4><a href="#">Paket Prasmanan (1)</a></h4>
                             </div>
                         </div><!-- .blog-entry end -->
                     </div><!-- .col-md-4 end -->
@@ -172,12 +128,9 @@
                                 <a href="#">
                                     <img src="assets/images/prasmanan-pict/paket-2.jpg" alt="entry image" />
                                 </a>
-                                <div class="entry--overlay">
-                                    <a href="#"><i class="fa fa-chain"></i></a>
+                                <div class="paket">
+                                    <a href="#">Paket Prasmanan 2</a>
                                 </div>
-                            </div>
-                            <div class="entry--title">
-                                <h4><a href="#">Paket Prasmanan (2)</a></h4>
                             </div>
                         </div><!-- .blog-entry end -->
                     </div><!-- .col-md-4 end -->
@@ -187,19 +140,19 @@
                         <div class="blog-entry">
                             <div class="entry--img">
                                 <a href="#">
-                                    <img src="assets/images/prasmanan-pict/paket-1.jpeg" alt="entry image" />
+                                    <img src="assets/images/prasmanan-pict/paket-4.jpg" alt="entry image" />
                                 </a>
-                                <div class="entry--overlay">
-                                    <a href="#"><i class="fa fa-chain"></i></a>
+                                <div class="paket">
+                                    <a href="#">Paket Prasmanan 3</a>
                                 </div>
-                            </div>
-                            <div class="entry--title">
-                                <h4><a href="#">Paket Prasmanan (3)</a></h4>
                             </div>
                         </div><!-- .blog-entry end -->
                     </div><!-- .col-md-4 end -->
 
                 </div><!-- .container end -->
+                <div class="slide--action text--center">
+                    <a class="btn btn-prasmanan" href="#">Paket Prasmanan Lengkap</a>
+                </div>
             </div>
         </section><!-- #blog end -->
 
