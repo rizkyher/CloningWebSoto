@@ -1144,7 +1144,7 @@ section {
 }
 /* Button Primary */
 .btn--primary {
-  background-color: #d8ae76;
+  background-color: #1da1f2;
   color: #ffffff;
 }
 .btn--primary:active,
@@ -1156,7 +1156,7 @@ section {
 .bg-dark .btn--primary:active,
 .bg-dark .btn--primary:focus,
 .bg-dark .btn--primary:hover {
-  background-color: #dbb683;
+  background-color: #1da1f2;
   color: #ffffff;
 }
 /* Button Secondary*/
@@ -1168,9 +1168,9 @@ section {
 .btn--secondary:active,
 .btn--secondary:focus,
 .btn--secondary:hover {
-  background-color: #d8ae76;
+  background-color: #1da1f2;
   color: #ffffff;
-  border-color: #d8ae76;
+  border-color: #1da1f2;
 }
 /* Button White */
 .btn--white {
@@ -1182,9 +1182,9 @@ section {
 .btn--white:active,
 .btn--white:focus,
 .btn--white:hover {
-  background-color: #d8ae76;
+  background-color: #1da1f2;
   color: #ffffff;
-  border-color: #d8ae76;
+  border-color: #1da1f2;
 }
 /* Button Block */
 .btn--block {
@@ -1202,15 +1202,15 @@ section {
   background-color: transparent;
 }
 .btn--bordered.btn--primary {
-  color: #d8ae76;
-  border-color: #d8ae76;
+  color: #1da1f2;
+  border-color: #1da1f2;
 }
 .btn--bordered.btn--primary:active,
 .btn--bordered.btn--primary:focus,
 .btn--bordered.btn--primary:hover {
   color: #ffffff;
-  background-color: #d8ae76;
-  border-color: #d8ae76;
+  background-color: #1da1f2;
+  border-color: #1da1f2;
 }
 .btn--bordered.btn--secondary {
   color: #363636;
@@ -1230,7 +1230,7 @@ section {
 .btn--bordered.btn--white:active,
 .btn--bordered.btn--white:focus,
 .btn--bordered.btn--white:hover {
-  color: #d8ae76;
+  color: #1da1f2;
   background-color: #ffffff;
   border-color: #ffffff;
 }
@@ -1243,13 +1243,13 @@ section {
 .btn--white.btn--secondary:focus,
 .btn--white.btn--secondary:hover {
   color: #ffffff;
-  background-color: #d8ae76;
-  border-color: #d8ae76;
+  background-color:#1da1f2;
+  border-color: #1da1f2;
 }
 .bg-theme .btn--primary,
 .bg-overlay-theme .btn--primary {
   background-color: #ffffff;
-  color: #d8ae76;
+  color: #1da1f2;
 }
 .bg-theme .btn--primary:hover,
 .bg-overlay-theme .btn--primary:hover {
@@ -1258,10 +1258,10 @@ section {
 }
 .portfolio-filter li a.active-filter,
 .portfolio-filter li a:hover {
-  color: #d8ae76;
+  color: #1da1f2;
 }
 .navbar-toggle {
-  border-color: #d8ae76;
+  border-color: #1da1f2;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
@@ -2164,7 +2164,7 @@ section {
   position: relative;
 }
 .feature-panel .feature--icon {
-  color: #d8ae76;
+  color: #1da1f2;
   font-size: 60px;
   line-height: 1;
   margin-bottom: 20px;
@@ -2401,7 +2401,7 @@ section {
   margin-right: 24px;
 }
 .footer--widget-about .social a:hover {
-  color: #d8ae76;
+  color: #1da1f2;
 }
 .footer--widget-recent .entry {
   position: relative;
@@ -2434,7 +2434,7 @@ section {
   line-height: 22px;
 }
 .footer--widget-recent .entry--title a:hover {
-  color: #d8ae76;
+  color: #1da1f2;
 }
 .footer--widget-recent img {
   border-radius: 4px;
@@ -2456,7 +2456,7 @@ section {
   position: absolute;
   left: 0;
   top: 4px;
-  color: #d8ae76;
+  color: #1da1f2;
   font-size: 19px;
 }
 .footer--copyright {
