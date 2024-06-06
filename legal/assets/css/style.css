@@ -105,7 +105,7 @@ body {
 }
 
 .icon-st{
-  color: white;
+  color: #1da1f2;
 }
 
 .wrapper {
@@ -1540,7 +1540,12 @@ section {
   max-width: 100%;
   height: auto;
   line-height: 100px;
-  font-size: 3rem;
+  font-size: 4rem;
+  color: #1da1f2;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+
 }
 .navbar-nav:not(.nav-pos-right) {
   margin-right: 200px;
