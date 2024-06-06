@@ -93,7 +93,7 @@ html {
   font-size: 13px;
 }
 body {
-  background-color: #ffffff;
+  background-color: #5a86ad;
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   font-weight: 400;
@@ -2881,8 +2881,7 @@ section {
   z-index: 2;
 }
 .counter-container {
-  padding-top: 54px;
-  padding-bottom: 54px;
+  padding: 54px;
   border-radius: 6px;
   background-color: #fff;
 }
