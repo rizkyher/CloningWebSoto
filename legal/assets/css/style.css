@@ -136,7 +136,7 @@ body {
   text-shadow: none;
 }
 ::selection {
-  background-color: #d8ae76;
+  background-color: #1da1f2;
   color: #ffffff;
   text-shadow: none;
 }
@@ -145,19 +145,19 @@ a {
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  color: #d8ae76;
+  color: #1da1f2;
 }
 a:hover {
-  color: #cd974e;
+  color: #1da1f2;
   text-decoration: none;
 }
 a:focus {
-  color: #cd974e;
+  color: #1da1f2;
   outline: none;
   text-decoration: none;
 }
 a:active {
-  color: #cd974e;
+  color: #1da1f2;
   outline: none;
   text-decoration: none;
 }
@@ -1309,7 +1309,7 @@ section {
   box-shadow: none;
 }
 .form-control:focus {
-  border-color: #d8ae76;
+  border-color: #1da1f2;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -1858,7 +1858,7 @@ section {
     top: 0;
   }
   .navbar-toggle .icon-bar {
-    background-color: #d8ae76;
+    background-color: #1da1f2;
   }
   .header-fixed .navbar.affix .navbar-nav > li > a {
     color: #ffffff;
@@ -1875,7 +1875,7 @@ section {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
   .navbar-toggle {
-    border-color: #d8ae76;
+    border-color: #1da1f2;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     border-radius: 0;
@@ -1929,7 +1929,7 @@ section {
     float: left;
   }
   .navbar-toggle {
-    border-color: #d8ae76;
+    border-color: #1da1f2;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     border-radius: 0;
@@ -1937,7 +1937,7 @@ section {
     display: block;
   }
   .navbar-toggle .icon-bar {
-    background-color: #d8ae76;
+    background-color: #1da1f2;
   }
   .navbar-fixed-top .navbar-collapse {
     overflow: scroll !important;
@@ -1976,7 +1976,7 @@ section {
     padding-top: 0;
   }
   .navbar-toggle .icon-bar {
-    background-color: #d8ae76;
+    background-color: #1da1f2;
   }
   .navbar-nav > li:after {
     display: none;
@@ -2420,6 +2420,8 @@ section {
   line-height: 28px;
   margin-right: 24px;
 }
+
+
 .footer--widget-about .social a:hover {
   color: #1da1f2;
 }
@@ -2804,7 +2806,7 @@ section {
 }
 .portfolio-filter li a.active-filter,
 .portfolio-filter li a:hover {
-  color: #d8ae76;
+  color: #1da1f2;
 }
 /* Portfolio Item */
 .portfolio-item .portfolio--img {
